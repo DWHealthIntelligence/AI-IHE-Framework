@@ -1,0 +1,1118 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/wudan/ontologies/2021/8/PEIR"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/wudan/ontologies/2021/8/PEIR">
+    <Prefix name="" IRI="http://www.semanticweb.org/wudan/ontologies/2021/8/PEIR"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Abdomen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Address"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Age"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AirPollution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AllergiesHistory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anxiety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BirthHistory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BodyTemperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChemicalPollution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Demography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Depression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drinking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Education"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnvironmentalHealth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eye"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FamilyHistory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Head"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HealthHistory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HealthLiteracy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Instrument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IonizingRadiation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Laboratory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lifestyle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Limbs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Marital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicalHistory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicationHistory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MenstrualHistory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MentalHealth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherDemands"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PersonalHealthCharacteristics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pharynx"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalExamination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalExaminationItems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalSymptoms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pressure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Profession"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QuitDrinking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QuitSmoking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Self-feeling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Self-monitoring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SexLife"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SleepHealth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Smoking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SoundPolution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sports"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SurgeryHistory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Taboos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Urinary"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasItems"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRecommendation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDegree"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFeatureValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFrequency"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasGender"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasItemValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPrice"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasYears"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Abdomen"/>
+        <Class IRI="#PhysicalSymptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Address"/>
+        <Class IRI="#Demography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Age"/>
+        <Class IRI="#Demography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AirPollution"/>
+        <Class IRI="#EnvironmentalHealth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AllergiesHistory"/>
+        <Class IRI="#HealthHistory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anxiety"/>
+        <Class IRI="#MentalHealth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BirthHistory"/>
+        <Class IRI="#HealthHistory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BodyTemperature"/>
+        <Class IRI="#PhysicalSymptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChemicalPollution"/>
+        <Class IRI="#EnvironmentalHealth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chest"/>
+        <Class IRI="#PhysicalSymptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Demography"/>
+        <Class IRI="#PersonalHealthCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Depression"/>
+        <Class IRI="#MentalHealth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diet"/>
+        <Class IRI="#Lifestyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drinking"/>
+        <Class IRI="#Lifestyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ear"/>
+        <Class IRI="#PhysicalSymptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Education"/>
+        <Class IRI="#Demography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnvironmentalHealth"/>
+        <Class IRI="#PersonalHealthCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eye"/>
+        <Class IRI="#PhysicalSymptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FamilyHistory"/>
+        <Class IRI="#HealthHistory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gender"/>
+        <Class IRI="#Demography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Head"/>
+        <Class IRI="#PhysicalSymptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HealthHistory"/>
+        <Class IRI="#PersonalHealthCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HealthLiteracy"/>
+        <Class IRI="#PersonalHealthCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Instrument"/>
+        <Class IRI="#PhysicalExaminationItems"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IonizingRadiation"/>
+        <Class IRI="#EnvironmentalHealth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Laboratory"/>
+        <Class IRI="#PhysicalExaminationItems"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lifestyle"/>
+        <Class IRI="#PersonalHealthCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Limbs"/>
+        <Class IRI="#PhysicalSymptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Marital"/>
+        <Class IRI="#Demography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicalHistory"/>
+        <Class IRI="#HealthHistory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicationHistory"/>
+        <Class IRI="#HealthHistory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MenstrualHistory"/>
+        <Class IRI="#HealthHistory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MentalHealth"/>
+        <Class IRI="#PersonalHealthCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nose"/>
+        <Class IRI="#PhysicalSymptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherDemands"/>
+        <Class IRI="#PersonalHealthCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pharynx"/>
+        <Class IRI="#PhysicalSymptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalExamination"/>
+        <Class IRI="#HealthLiteracy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalSymptoms"/>
+        <Class IRI="#PersonalHealthCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physique"/>
+        <Class IRI="#PhysicalExaminationItems"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pressure"/>
+        <Class IRI="#MentalHealth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Profession"/>
+        <Class IRI="#Demography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QuitDrinking"/>
+        <Class IRI="#Drinking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QuitSmoking"/>
+        <Class IRI="#Smoking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Self-feeling"/>
+        <Class IRI="#HealthLiteracy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Self-monitoring"/>
+        <Class IRI="#HealthLiteracy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SexLife"/>
+        <Class IRI="#BirthHistory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SleepHealth"/>
+        <Class IRI="#PersonalHealthCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Smoking"/>
+        <Class IRI="#Lifestyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SoundPolution"/>
+        <Class IRI="#EnvironmentalHealth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sports"/>
+        <Class IRI="#Lifestyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SurgeryHistory"/>
+        <Class IRI="#HealthHistory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taboos"/>
+        <Class IRI="#PersonalHealthCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Urinary"/>
+        <Class IRI="#PhysicalSymptoms"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Address"/>
+        <Class IRI="#Age"/>
+        <Class IRI="#Education"/>
+        <Class IRI="#Gender"/>
+        <Class IRI="#Marital"/>
+        <Class IRI="#Profession"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AirPollution"/>
+        <Class IRI="#ChemicalPollution"/>
+        <Class IRI="#IonizingRadiation"/>
+        <Class IRI="#SoundPolution"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AllergiesHistory"/>
+        <Class IRI="#BirthHistory"/>
+        <Class IRI="#FamilyHistory"/>
+        <Class IRI="#MedicalHistory"/>
+        <Class IRI="#MedicationHistory"/>
+        <Class IRI="#MenstrualHistory"/>
+        <Class IRI="#SurgeryHistory"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Anxiety"/>
+        <Class IRI="#Depression"/>
+        <Class IRI="#Pressure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Diet"/>
+        <Class IRI="#Drinking"/>
+        <Class IRI="#Smoking"/>
+        <Class IRI="#Sports"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PhysicalExamination"/>
+        <Class IRI="#Self-feeling"/>
+        <Class IRI="#Self-monitoring"/>
+    </DisjointClasses>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Abdomen"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Address"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Age"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#AirPollution"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#AllergiesHistory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Anxiety"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#BirthHistory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#BodyTemperature"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#ChemicalPollution"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Chest"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Demography"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Depression"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Diet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Drinking"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Ear"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Education"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#EnvironmentalHealth"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Eye"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#FamilyHistory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Gender"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Head"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#HealthHistory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#HealthLiteracy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#IonizingRadiation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Lifestyle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Limbs"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Marital"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#MedicalHistory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#MedicationHistory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#MenstrualHistory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#MentalHealth"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Nose"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#OtherDemands"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#PersonalHealthCharacteristics"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Pharynx"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#PhysicalExamination"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#PhysicalSymptoms"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Pressure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Profession"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#QuitDrinking"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#QuitSmoking"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Self-feeling"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Self-monitoring"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#SexLife"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#SleepHealth"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Smoking"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#SoundPolution"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Sports"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#SurgeryHistory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Taboos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Urinary"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#PhysicalExaminationItems"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDegree"/>
+        <Class IRI="#PhysicalExaminationItems"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#Abdomen"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#Address"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#Age"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#AirPollution"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#AllergiesHistory"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#Anxiety"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#BirthHistory"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#BodyTemperature"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#ChemicalPollution"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#Chest"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#Demography"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#Depression"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#Diet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#Drinking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#Ear"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#Education"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#EnvironmentalHealth"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#Eye"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#FamilyHistory"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#Gender"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#Head"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#HealthHistory"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#HealthLiteracy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#IonizingRadiation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#Lifestyle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#Limbs"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#Marital"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#MedicalHistory"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#MedicationHistory"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#MenstrualHistory"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#MentalHealth"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#Nose"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#OtherDemands"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#PersonalHealthCharacteristics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#Pharynx"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#PhysicalExamination"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#PhysicalSymptoms"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#Pressure"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#Profession"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#QuitDrinking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#QuitSmoking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#Self-feeling"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#Self-monitoring"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#SexLife"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#SleepHealth"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#Smoking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#SoundPolution"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#Sports"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#SurgeryHistory"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#Taboos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Class IRI="#Urinary"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFrequency"/>
+        <Class IRI="#Abdomen"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFrequency"/>
+        <Class IRI="#Anxiety"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFrequency"/>
+        <Class IRI="#BodyTemperature"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFrequency"/>
+        <Class IRI="#Chest"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFrequency"/>
+        <Class IRI="#Depression"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFrequency"/>
+        <Class IRI="#Diet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFrequency"/>
+        <Class IRI="#Drinking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFrequency"/>
+        <Class IRI="#Ear"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFrequency"/>
+        <Class IRI="#Eye"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFrequency"/>
+        <Class IRI="#Head"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFrequency"/>
+        <Class IRI="#Limbs"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFrequency"/>
+        <Class IRI="#MentalHealth"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFrequency"/>
+        <Class IRI="#Nose"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFrequency"/>
+        <Class IRI="#Pharynx"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFrequency"/>
+        <Class IRI="#PhysicalExamination"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFrequency"/>
+        <Class IRI="#PhysicalSymptoms"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFrequency"/>
+        <Class IRI="#Pressure"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFrequency"/>
+        <Class IRI="#Self-monitoring"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFrequency"/>
+        <Class IRI="#Sports"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFrequency"/>
+        <Class IRI="#Urinary"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasGender"/>
+        <Class IRI="#BirthHistory"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasGender"/>
+        <Class IRI="#PhysicalExaminationItems"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasGender"/>
+        <Class IRI="#SexLife"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasItemValue"/>
+        <Class IRI="#PhysicalExaminationItems"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasNumber"/>
+        <Class IRI="#Drinking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasNumber"/>
+        <Class IRI="#Smoking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPrice"/>
+        <Class IRI="#PhysicalExaminationItems"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasType"/>
+        <Class IRI="#Diet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasType"/>
+        <Class IRI="#Drinking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasType"/>
+        <Class IRI="#MedicationHistory"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasType"/>
+        <Class IRI="#Sports"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasType"/>
+        <Class IRI="#SurgeryHistory"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasYears"/>
+        <Class IRI="#Drinking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasYears"/>
+        <Class IRI="#MedicalHistory"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasYears"/>
+        <Class IRI="#MedicationHistory"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasYears"/>
+        <Class IRI="#QuitDrinking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasYears"/>
+        <Class IRI="#QuitSmoking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasYears"/>
+        <Class IRI="#Smoking"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDegree"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasFeatureValue"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasFrequency"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasGender"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasItemValue"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasNumber"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPrice"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasType"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasYears"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasDegree</IRI>
+        <Literal>体检项目项目等级；特征-自我感觉</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasFeatureValue</IRI>
+        <Literal>特征名称</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasFrequency</IRI>
+        <Literal>特征发生频率：躯体症状All；饮食频率；饮酒频率；运动频率；心理健康All；睡眠健康；体检频率；自我监测频率</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasGender</IRI>
+        <Literal>体检项目性别区分</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasItemValue</IRI>
+        <Literal>项目名称</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasNumber</IRI>
+        <Literal>特征在单位时间内发生的数量：吸烟量；饮酒量</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasPrice</IRI>
+        <Literal>体检项目价格</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasType</IRI>
+        <Literal>特征类型：药物类型；手术部位；饮食类型；饮酒类型；运动类型</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasYears</IRI>
+        <Literal>特征持续时间：患病年数；服药年数；烟龄；戒烟年数；酒龄；戒酒年数</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
