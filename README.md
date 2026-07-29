@@ -108,14 +108,14 @@ Rather than directly producing a finalized strategy, the AI-developed candidate 
 
 The decision support system platform is currently deployed. The **Health Examination Participant's End** is displayed and  researchers can experience the interaction and strategy-finalization process by scanning the QR code below:
 
-![Participant End](assets/Participant_End.png)
+![Participant End](ai_ihe_decision_support_workflow/assets/Participant_End.png)
 
-![App QR Code](assets/WeChat_QRCode.jpg)
+![App QR Code](ai_ihe_decision_support_workflow/assets/WeChat_QRCode.jpg)
 
 
 The **Healthcare Provider's End** of this platform is deployed within the hospital's internal network. We provides screensnap view of the website.
 
-![Healthcare Provider End](assets/Healthcare_Provider_End.png)
+![Healthcare Provider End](ai_ihe_decision_support_workflow/assets/Healthcare_Provider_End.png)
 
 <!-- # Evaluation of AI-Assisted Decision Support Framework for Individualized Health Examination
  -->
